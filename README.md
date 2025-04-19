@@ -64,3 +64,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Installation
+1. composer install
+2. cp .env.example .env
+3. php artisan key:generate
+4. php artisan migrate
+5. php artisan serve
+6. php artisan ui bootstrap --auth
+7. npm install
+8. npm run dev
+9. php artisan tinker
+10. User::create(['name' => 'Admin', 'email' => 'admin@gmail.com', 'password' => bcrypt('admin')]); (do it twice if it error)
+9. Open the http://127.0.0.1:8000/
+10. Login with admin@gmail.com and admin
+11. Firstly open link into /category for category, /item for item, /transaksi for transaksi, and /history for history transaction
