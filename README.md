@@ -76,7 +76,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 7. npm install
 8. npm run dev
 9. php artisan tinker
-10. User::create(['name' => 'Admin', 'email' => 'admin@gmail.com', 'password' => bcrypt('admin')]); (do it twice if it error)
+10. User::create(['name' => 'Admin', 'email' => 'admin@gmail.com', 'password' => bcrypt('admin')]); (do it twice if it error).
 9. Open the http://127.0.0.1:8000/
 10. Login with admin@gmail.com and admin
 11. Firstly open link into /category for category, /item for item, /transaksi for transaksi, and /history for history transaction
